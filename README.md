@@ -59,14 +59,22 @@ A real-time chat application built using the MERN (MongoDB, Express.js, React.js
 git clone https://github.com/bhupinder759/Mern-chat-app.git
 cd Mern-chat-app
 
+---
+
 cd backend
 npm install
+
+---
 
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
 
+---
+
 npm run dev
+
+---
 
 cd frontend
 npm install
